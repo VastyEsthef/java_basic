@@ -36,3 +36,7 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+
+### Practica de .gitignore (ignorar projects)
+/src/main/java/edu/pe/example/projects
