@@ -4,15 +4,17 @@ public class Product {
 
     String name;
     double price;
+    private int id;
 
     // CONSTRUCTORS
     public Product() {
 
     }
 
-    public Product(String name, double price) {
+    public Product(String name, double price, int id) {
         this.name = name;
         this.price = price;
+        this.id = id;
     }
 
     // NAME
